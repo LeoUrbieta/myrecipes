@@ -3,8 +3,7 @@ class CreateChefs < ActiveRecord::Migration[5.1]
     create_table :chefs do |t|
       t.string :chefname
       t.string :email
-      t.datetime :created_at
-      t.datetime :updated_at
+      t.timestamps
     end
   end
 end
